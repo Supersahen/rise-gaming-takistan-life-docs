@@ -106,9 +106,9 @@ Each faction plays very differently. Pick the one that fits how you want to play
 
 ---
 
-📚 Additional Guides
+##📚 Additional Guides
 
-For players who want a deeper understanding of how the server systems function:
+**For players who want a deeper understanding of how the server systems function:**
 
 Economy Overview – How money flows, how territory affects income, and how risk scales.
 👉 **[Economy Overview](./economy_overview.md)**
