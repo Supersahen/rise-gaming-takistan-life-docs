@@ -1,0 +1,181 @@
+RISE Takistan Life – Developer Instructions
+1. General Workflow
+
+All custom functions follow the format RISE_fnc_<name> and are predeclared in CfgFunctions. Capital RISE and lowercase fnc. Do not rename functions that already exist, if code is repeated a lot a new function or handler can be made but this should be done conservatively.
+
+When testing/editing scripts live in the dev console, wrap code like:
+
+rise_fnc_shopOpen = {
+    // test code here (no comments in block). Comments are not allowed inside functions that are being worked on as it breaks the dev console. They can be added after the code is confirmed working and is asked to be finalised. Please do not add any comments or header blocks to the files until I tell you to finalise the file
+};
+
+
+Once I advise you to, finalise the function by:
+
+Removing the wrapper function.
+
+Adding a header block with author + dependencies.
+
+Finalised Function Header Template
+/*
+    Author: [RISE] Gaming Dev Team
+    fn_<name>.sqf
+    Dependencies: list_of_functions
+    Description: Short explanation of purpose
+*/
+
+2. Debugging
+
+Use the existing function:
+
+[] call rise_fnc_debug;
+
+
+Do not create new debug wrappers.
+
+Log checks can be done with ["data to output"] call RISE_fnc_debug or [variable to output] call RISE_fnc_debug if needed.
+
+3. Variable System
+
+Player state, economy, and progression are stored as variables on the unit.
+
+Examples:
+
+playerbank (bank balance)
+
+playermoney (cash)
+
+playerlicenses (license array)
+
+playerinventory (stored items)
+
+Access via getVariable / setVariable on the unit.
+
+Economy data is pulled by server from unit variables.
+
+4. Master Array System
+
+The Master Array defines all items, vehicles, weapons, attachments, magazines, uniforms, vests, packs, helmets, goggles, and licenses.
+
+Item Format
+[
+  MasterClass, A3Class, DisplayName, Category,
+  [Buy,Sell,Limit], Weight,
+  [Flag1,Flag2],
+  [Licenses by faction],
+  Description, Materials
+]
+
+
+Category: "food", "resource", "magazine", etc.
+
+Flags: [CanIllegal, CanStack].
+
+Licenses: [[civ],[cop],[esu],[pmc],[ins],[],[]].
+
+Materials: legacy, unused.
+
+Examples
+["orange","orange","Orange","food",[7500,4000,15000],1,[false,false],[[],[],[],[],[],[],[]],"No Description",[]]
+["iron","iron","Iron","resource",[3000,1600,15000],2.5,[false,false],[[],[],[],[],[],[],[]],"",[]]
+["Laserbatteries","Laserbatteries","Laser Batteries","magazine",[10000,8000,15000],1,[false,false],[[],[],[],[],[],[],[]],"",[["plastic",1],["electronic_components",1]]]
+
+Vehicle Format
+[
+  MasterClass, A3Class, DisplayName, Type,
+  [Buy,Sell,Limit], Weight,
+  [Flags], [Licenses], Description, Materials
+]
+
+Example
+["UH60M_EP1","CUP_B_UH60M_US","","air",
+ [700000,400000,15000],200,[false,false],
+ [["sobr_training"],["air"],["air"],[],["air"],[],[]],
+ "", [["stahl",500],["electronic_components",15]]
+]
+
+Licenses
+
+Stored separately in master_license:
+
+[LicenseClass, DisplayName, Price, Description]
+
+Examples
+["car","Driver License",5000,"Permit to drive vehicles"]
+["sobr_training","SOBR Training",500000,"Police SOBR certification"]
+["viplicense","VIP Pass",5e+007,"Premium access to high-end shops & perks"]
+
+Compiling
+
+At init, all master arrays merge into masterarray:
+
+masterarray = master_items + master_vehicles + master_weapons + ...;
+masterarray_a3 = [];
+
+for "_i" from 0 to (count masterarray - 1) do {
+  _entry = masterarray select _i;
+  _master = _entry select 0;
+  _a3 = _entry select 1;
+
+  call compile format ["DEMAND_%1 = 1;",_master];
+  call compile format ["SUPPLY_%1 = 1;",_master];
+  call compile format ["SHOP_SUPPLY_%1 = 100;",_master];
+  call compileFinal format ["LIFE_%1 = %2;",_master,_entry];
+  masterarray_a3 pushBack [_master,_a3];
+
+  _buy = [_master] call RISE_fnc_itemBuyPrice;
+  _sell = [_master] call RISE_fnc_itemSellPrice;
+  if (_sell > _buy) then {diag_log format ["%1 sell > buy.",_master]};
+};
+Life_MasterArrayDefined = true;
+
+
+Outputs:
+
+LIFE_<Class> = compiled item entry.
+
+masterarray_a3 = lookup table.
+
+Demand/Supply placeholders for economy balancing.
+
+5. Economy
+
+Prices come from RISE_fnc_itemBuyPrice and RISE_fnc_itemSellPrice.
+
+Shop supply/demand can shift pricing dynamically.
+
+Balance check ensures sell ≤ buy.
+
+6. Dependencies
+
+The mission relies on:
+
+Advanced Towing
+
+CUP Terrains/Maps/Weapons/Units
+
+JSRS Soundmod
+
+CBA_A3
+
+7. Development Notes
+
+All testing should be done live in server dev console.
+
+Console does not accept inline comments inside test code blocks.
+
+Use lightweight wrappers for live editing.
+
+Finalised code must be cleaned, rest function wrapper removed, and header block added. The wrapper needs to be removed to ensure it compiles successfully for SQM or SQF files.
+
+8. Quick Reference
+
+Debug → [] call rise_fnc_debug;
+
+Item lookup → LIFE_<MasterClass>
+
+Player vars → stored directly on unit
+
+Economy funcs → RISE_fnc_itemBuyPrice, RISE_fnc_itemSellPrice
+
+Masterarray compiled once → don’t rebuild mid-session
