@@ -23,7 +23,6 @@ Rise Gaming Takistan Life is an Arma 3 role-playing game mode set in the fiction
 - **U** - Lock/unlock vehicles (requires keys)
 - **T** - Open vehicle trunk
 - **Shift+P** - Put hands up (surrender)
-- **Shift+R** - Restrain (police/OPFOR only)
 
 ### Money & Economy Basics
 - **Cash vs Bank**: Keep money in bank to avoid losing it on death
@@ -190,9 +189,9 @@ Rise Gaming Takistan Life is an Arma 3 role-playing game mode set in the fiction
 | LSD Processing | $30,000 | Process LSD (illegal) |
 | Heroin Processing | $50,000 | Process heroin (illegal) |
 | Pilot License | $500,000 | Aircraft operation |
-| Pistol License | $50,000 | Handgun carry permit |
-| Rifle License | $200,000 | Rifle carry permit |
-| Automatic Weapons | $300,000 | Automatic rifle permit |
+| Pistol License | $50,000 | Handgun carry permit (civilians & PMC only) |
+| Rifle License | $200,000 | Rifle carry permit (civilians & PMC only) |
+| Automatic Weapons | $300,000 | Automatic rifle permit (civilians & PMC only) |
 | VIP Pass | $50,000,000 | Premium benefits package |
 
 ### Job Loops
@@ -244,21 +243,45 @@ Rise Gaming Takistan Life is an Arma 3 role-playing game mode set in the fiction
 - **Sharing**: Give keys to other players via keychain menu
 
 ### Garage System
-- **Storage Cost**: $1,000 per vehicle
+- **Storage Cost**: Faction-dependent ($1,000 per vehicle baseline; civilians/indies 10%, Police/OPFOR 15%; +$10,000 surcharge if impounded)
 - **Retrieval**: Free from garage
 - **Selling**: 50% of purchase price
 - **War Vehicles**: Special restrictions during peacetime
+- **Tow Service**: Civilian tow truck drivers collect impounded vehicles; request to active drivers to retrieve
+
+**See also**: [GENERAL_TIPS_GUIDE.md](GENERAL_TIPS_GUIDE.md) for vehicle survival tips and vehicle systems
 
 ### Vehicle Upgrades
-- **Nitro Kit**: $100,000 - Faster acceleration
-- **Speed Kit**: $75,000 - Higher top speed (unstable)
-- **Repair Kit**: $7,500 - Field repairs
-- **Fuel Syphon**: $5,000 - Transfer fuel between vehicles
+- **Nitro Kit**: Faster acceleration
+- **Speed Kit**: Higher top speed
+- **Repair Kit**: Field repairs (prevent stranding)
+- **Plate Removal**: Hide vehicle identity
+- **Storage Expansion**: Increase cargo capacity
+- **Lock Changes**: Operational security
 
 ### Housing (Limited Implementation)
-- Private storage capability (300kg max)
+- Private storage capability (virtual items only; guns/ammo cannot be stored)
 - Persistent across sessions
 - Access control via keys
+- Located at faction spawns ("DMV - Private Storage" for civilians)
+
+### Government Convoys
+
+**Convoy Types** (approximately every 45-minute cycle):
+- **BLUFOR Government Convoy**: Supply transport to police base; civilians and insurgents can rob; police defend
+- **OPFOR Government Convoy**: Supply transport to OPFOR base; civilians, insurgents, and BLUFOR can rob; OPFOR defends
+- **Insurgent Supply Convoy**: Restricted weapon shipment to insurgent base; civilians can rob at high RP penalty; BLUFOR/OPFOR can intercept
+
+**Participation**:
+- **As defender**: Engage robbers and protect the convoy
+- **As robber**: Scout, ambush, and extract cargo
+- **As OSF**: OPFOR special forces can interdict northern convoys with RP justification
+
+**Rewards**:
+- Defenders: Faction points and supply bonuses
+- Robbers: Cargo contents (weapons, ammunition, supplies)
+
+**See also**: [GENERAL_TIPS_GUIDE.md#Convoy System](GENERAL_TIPS_GUIDE.md) for tactical guidance
 
 ## Crime & Punishment
 
@@ -289,7 +312,7 @@ Rise Gaming Takistan Life is an Arma 3 role-playing game mode set in the fiction
 | Illegal Firearm | 3 min | $300,000 |
 
 ### Arrest Process
-1. Police/OPFOR restrain suspect
+1. Police/OPFOR interact on a vulnerable player (stunned, lying down, or hands up)
 2. Transport to faction prison (within 50-75m)
 3. Assign charges
 4. Prisoner serves time or pays bail
@@ -300,6 +323,55 @@ Rise Gaming Takistan Life is an Arma 3 role-playing game mode set in the fiction
 - Killing PMC: $85,000 bounty
 - Killing Civilian: $75,000 bounty
 - Killing Insurgent: $50,000 bounty
+
+## Advanced Systems
+
+### Drones and UAV Terminals
+
+**UAV Terminals**: Expensive purchases that allow faction members to operate various drone types remotely.
+
+**Drone Types Available**:
+- **Reconnaissance Drones**: Gather intel on enemy positions
+- **Bomb-Dropping Drones**: Deliver explosives (insurgent specialty)
+- **Military Recon Drones**: Enhanced reconnaissance for BLUFOR/OPFOR
+- **Armed Predator Drones**: Weaponized aircraft (BLUFOR/OPFOR during war/martial law only)
+- **Basic Limited Drones**: Civilian-accessible reconnaissance
+
+**Faction-Specific Rules**:
+- **BLUFOR (Police)**: Cannot send drones into the south; confined to northern airspace
+- **OPFOR**: Can send drones into the north; BLUFOR can arrest operators
+- **Insurgents/Civilians**: High risk; losing a UAV terminal on death is permanent financial penalty
+
+**Strategic Use**:
+- Reconnaissance before operations
+- Convoy interdiction and defense
+- Territory control monitoring
+
+**See also**: [GENERAL_TIPS_GUIDE.md#UAV Terminals and Drones](GENERAL_TIPS_GUIDE.md) for detailed guidance
+
+### Banking and Insurance
+
+**Bank Systems**:
+- **Civilian/ESU Shared Bank**: Same account pool; protected only with bank insurance
+- **Faction Banks** (Police, OPFOR, Insurgents): Separate faction account; protected only with bank insurance
+- **VIP Exception**: VIP members automatically protect bank on death
+
+**Bank Insurance**:
+- Purchasable virtual inventory item
+- Purchased per-death to protect banking on next death
+- Essential before high-risk activities
+
+**See also**: [GENERAL_TIPS_GUIDE.md#Banking and Insurance](GENERAL_TIPS_GUIDE.md) for payment details
+
+### Gas Stations (Universal Resupply)
+
+**Available at All Locations** (all factions):
+- **Vehicle Resupply**: Refuel, jerry cans, vehicle ammo
+- **Personal Equipment**: Medikits (full healing), earplugs (tear gas protection), energy drinks, steroids (inventory expansion), repair kits, knife (organ harvesting), siphon fuel kits, lighter
+
+**Strategy**: Always stock up before operations; gas stations are neutral resupply hubs.
+
+**See also**: [GENERAL_TIPS_GUIDE.md#Gas Stations](GENERAL_TIPS_GUIDE.md) for full inventory
 
 ## Medical System
 
