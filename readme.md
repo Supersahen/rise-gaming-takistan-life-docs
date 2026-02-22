@@ -106,13 +106,16 @@ Each faction plays very differently. Pick the one that fits how you want to play
 
 ---
 
-# 📜 Rules
+📚 Additional Guides
 
-Before you jump into chaos:
+For players who want a deeper understanding of how the server systems function:
 
+Economy Overview – How money flows, how territory affects income, and how risk scales.
+👉 **[Economy Overview](./economy_overview.md)**
+
+Rules Summary – High-level overview of core rules before reading the full policy.
 👉 **[Rules Summary](./rules.md)**
 
-(Full rule set is linked inside.)
 
 ---
 
