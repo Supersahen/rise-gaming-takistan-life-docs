@@ -29,14 +29,16 @@ You can connect via the Arma 3 launcher or the in-game server browser.
 
 The following mods are required:
 
-- Advanced Towing  
-- CBA_A3  
-- CUP Terrains  
-- CUP Units  
-- CUP Vehicles  
-- CUP Weapons  
+- [Advanced Towing](https://steamcommunity.com/sharedfiles/filedetails/?id=639837898)
+- [CBA_A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
+- [CUP Terrains - Core](https://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+- [CUP Terrains - Maps](https://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
+- [CUP Units](https://steamcommunity.com/sharedfiles/filedetails/?id=497661914)
+- [CUP Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=541888371)
+- [CUP Weapons](https://steamcommunity.com/sharedfiles/filedetails/?id=497660133)
 
-Ensure all required mods are loaded before joining.
+Ensure all required mods are loaded before joining.  
+They can all be loaded in one click from this [workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3448629164)
 
 ---
 
@@ -44,14 +46,15 @@ Ensure all required mods are loaded before joining.
 
 These are supported but not required:
 
-- **Western Sahara CDLC**  
+- **[Western Sahara CDLC](https://steamcommunity.com/sharedfiles/filedetails/?id=2636962953)**  
   *(Compatibility mods available for non-owners)*
 
-- **Reaction Forces CDLC**  
+- **[Reaction Forces CDLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3150497912)**  
   *(Compatibility mods available for non-owners)*
 
-- **JSRS Sound Mod**  
-  *(Recommended for enhanced audio experience)*
+- **[JSRS Sound Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=861133494&searchtext=JSRS)**  
+ **[JSRS CUP Weapon Support](https://steamcommunity.com/sharedfiles/filedetails/?id=1624803912&searchtext=JSRS)**  
+*(Both mods are ecommended for enhanced audio experience)*
 
 ---
 
