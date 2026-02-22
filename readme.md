@@ -106,7 +106,7 @@ Each faction plays very differently. Pick the one that fits how you want to play
 
 ---
 
-##📚 Additional Guides
+## 📚 Additional Guides
 
 **For players who want a deeper understanding of how the server systems function:**
 
