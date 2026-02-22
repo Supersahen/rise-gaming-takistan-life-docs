@@ -1,10 +1,10 @@
 # Insurgents
 
-**Role:** Guerrilla force operating against BLUFOR and OPFOR.
+**Role:** Independent guerrilla force opposing both BLUFOR and OPFOR.
 
-Insurgents are independent and hostile to both government factions. You operate through sabotage, ambush, smuggling, and destabilisation.
+Insurgents operate outside government authority. You are hostile to both state factions and function through sabotage, ambush, smuggling, and destabilisation.
 
-You are high-risk by design.
+Insurgency is structured pressure — not random aggression.
 
 ---
 
@@ -12,56 +12,84 @@ You are high-risk by design.
 
 - Insurgents may engage BLUFOR and OPFOR.
 - Civilians are not valid targets unless they attack first.
-- Avoid safe zones and spawn camping.
+- Insurgents are expected to protect Muslim civilians where possible.
+- Safe zones and spawn protections must be respected.
 
-Conflict should be structured, not random.
+Your conflict is with government forces — not the general population.
 
 ---
 
 ## Getting Started
 
-1. Equip affordable gear.
-2. Secure a money loop before engaging in repeated combat.
-3. Operate in pairs or squads whenever possible.
+1. Equip affordable combat gear.
+2. Secure a money source before committing to repeated combat.
+3. Operate in squads whenever possible.
 
-Solo insurgents rarely survive long.
+Solo insurgents rarely survive sustained operations.
 
 ---
 
-## Income & Operations
+## Income & Economic Operations
 
-### Drug Processing
-- Insurgents can process all drug types.
-- Purchase required processing training from your faction dealer.
-- Sell through authorised in-game dealers.
-- Expect response during transport and sale.
+Insurgents have access to most civilian economic loops, but drug processing works differently.
+
+---
+
+### Drug Processing (Insurgent Method)
+
+- Insurgents purchase processing training from their **base dealer**.
+- Raw materials are processed at the insurgent base using the dealer.
+- Processed drugs are sold to designated drug dealers located in the North.
+
+Insurgents do not use civilian gang laboratories.
+
+High profit. High risk during transport and sale.
+
+---
+
+### Drug Types
+
+Each material produces a specific drug:
+
+- **Coca → Cocaine**
+- **Ergot → LSD**
+- **Poppy → Heroin**
+
+These materials are harvested in the field and processed at base.
 
 ---
 
 ### Meth Production
-- Obtain precursors from pharmacies.
-- Process at the designated laboratory.
-- Risk of explosion during processing.
-- Plan security and extraction routes.
+
+Meth operates separately from crop-based drugs.
+
+- Requires precursor chemicals purchased from pharmacies.
+- Can be processed after acquiring required training.
+- High payout.
+- Strong government response expected if detected.
+
+Meth is profitable, but it escalates attention quickly.
 
 ---
 
 ### Bombing Missions
-- Requested at insurgent base.
-- The requesting player is responsible for placement and defense.
-- Failure conditions apply if killed.
-- Expect heavy response.
 
-Bombing missions are strategic tools, not casual actions.
+- Requested at insurgent base.
+- The requesting player receives the device.
+- The mission fails if the responsible player is killed.
+- Expect coordinated BLUFOR and OPFOR response.
+
+Bombing is strategic disruption — not casual use.
 
 ---
 
 ### Supply Convoys
-- Periodic faction convoys deliver supplies.
-- These attract police and OPFOR attention.
-- Escort and defense are recommended.
 
-Convoys sustain insurgent capability.
+Insurgent convoys periodically deliver restricted supplies to base.
+
+- Convoys attract attention.
+- Escort and defense are recommended.
+- Successful defense strengthens insurgent capability.
 
 ---
 
@@ -69,17 +97,19 @@ Convoys sustain insurgent capability.
 
 - Reconnaissance and explosive drones are available.
 - UAV terminals are lost on death.
-- Use caution when deploying aerial assets.
+- Deploy carefully and with protection.
+
+Aerial assets are tools — not guarantees.
 
 ---
 
 ## Storage & Logistics
 
-- Private storage available at insurgent base.
-- Plan vehicle choice carefully for smuggling.
-- Storage upgrades increase survivability.
+- Private storage is available at insurgent base.
+- Plan vehicle selection for smuggling and sales.
+- Storage upgrades improve survivability.
 
-Logistics keep insurgency alive.
+Insurgency survives through logistics.
 
 ---
 
@@ -93,10 +123,10 @@ Logistics keep insurgency alive.
 
 ## Common Mistakes
 
-- Processing meth in busy areas.
-- Running high-value goods without backup.
-- Ignoring patrol patterns.
-- Treating insurgency like deathmatch.
+- Transporting large quantities without backup.
+- Operating alone in predictable areas.
+- Treating insurgency as constant open combat.
+- Ignoring extraction planning.
 
 ---
 
@@ -104,9 +134,9 @@ Logistics keep insurgency alive.
 
 Successful insurgents:
 
-- Strike quickly.
-- Avoid prolonged exposure.
-- Use terrain intelligently.
 - Choose engagements carefully.
+- Strike quickly and withdraw.
+- Protect aligned civilians.
+- Apply pressure without overexposing themselves.
 
-Insurgency is controlled pressure — not constant firefight.
+Insurgency is sustained disruption — not uncontrolled warfare.
