@@ -47,10 +47,10 @@ They can all be loaded in one click from this [workshop collection](https://stea
 These are supported but not required:
 
 - **[Western Sahara CDLC](https://steamcommunity.com/sharedfiles/filedetails/?id=2636962953)**  
-  *(Compatibility mods available for non-owners)*
+  *(Compatibility mods available for non-owners of the creator DLC, not required if you own the DLC)*
 
 - **[Reaction Forces CDLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3150497912)**  
-  *(Compatibility mods available for non-owners)*
+  *(Compatibility mods available for non-owners of the creator DLC, not required if you own the DLC)*
 
 - **[JSRS Sound Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=861133494&searchtext=JSRS)**  
  **[JSRS CUP Weapon Support](https://steamcommunity.com/sharedfiles/filedetails/?id=1624803912&searchtext=JSRS)**  
@@ -74,10 +74,9 @@ This bypasses the launcher CDLC check issue.
 
 Join the official Discord for:
 
-- Announcements
+- Announcements & Change Notes
 - Whitelist applications
 - Faction applications (SRT, OSF, PMC, etc.)
-- Rule clarification
 - Support
 - Community discussion
 
@@ -146,7 +145,7 @@ Each faction plays differently. Choose based on your preferred playstyle.
 
 ---
 
-## 🚑 ESU
+## ⚪ ESU
 - Revival and emergency response
 - Neutral medical operations
 - Aircraft rapid response (licensed)
@@ -183,7 +182,7 @@ All players are responsible for knowing the official rule set.
 
 👉 https://github.com/RiseGaming/Takistan-Life-Rules
 
-The Rules Summary is a simplified overview. The official rules take priority.
+The Rules Summary above is a simplified overview. The official rules take priority.
 
 ---
 
