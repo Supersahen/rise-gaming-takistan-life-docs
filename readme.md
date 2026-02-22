@@ -4,129 +4,193 @@ Takistan Life is a multi-faction Arma 3 roleplay server set in a divided republi
 
 The North is governed by BLUFOR.  
 The South is controlled by OPFOR.  
-Insurgents operate in the shadows.  
-Civilians build (or break) the economy.  
-ESU keeps people alive.  
-PMC works for whoever pays.
+Insurgents operate against both.  
+Civilians drive the economy.  
+ESU keeps players alive.  
+PMC works by contract.
 
-This isn’t hardcore milsim, and it isn’t deathmatch.  
-Your choices matter — but the goal is good gameplay, not paperwork.
+This server sits between hardcore milsim and casual chaos.  
+Conflict is structured. Risk matters. Planning is rewarded.
 
 ---
 
-## 🌍 New Here?
+# 🌐 Join the Server
+
+## Server Connection
+
+- **IP:** `95.156.198.143`  
+- **Port:** `11200`
+
+You can connect via the Arma 3 launcher or the in-game server browser.
+
+---
+
+## 📦 Required Mods
+
+The following mods are required:
+
+- Advanced Towing  
+- CBA_A3  
+- CUP Terrains  
+- CUP Units  
+- CUP Vehicles  
+- CUP Weapons  
+
+Ensure all required mods are loaded before joining.
+
+---
+
+## ➕ Optional Mods
+
+These are supported but not required:
+
+- **Western Sahara CDLC**  
+  *(Compatibility mods available for non-owners)*
+
+- **Reaction Forces CDLC**  
+  *(Compatibility mods available for non-owners)*
+
+- **JSRS Sound Mod**  
+  *(Recommended for enhanced audio experience)*
+
+---
+
+## ⚠ CDLC Joining Issue (Launcher Bug)
+
+If the Arma 3 launcher blocks you from joining due to a DLC ownership error:
+
+1. Launch Arma 3 normally.
+2. Open the **in-game server browser**.
+3. Search for the server and connect directly.
+
+This bypasses the launcher CDLC check issue.
+
+---
+
+# 💬 Community & Support
+
+Join the official Discord for:
+
+- Announcements
+- Whitelist applications
+- Faction applications (SRT, OSF, PMC, etc.)
+- Rule clarification
+- Support
+- Community discussion
+
+👉 **Discord:** https://discord.gg/dVWvxEZJBj
+
+---
+
+# 🧭 New Here?
 
 Start with:
 
-👉 **[Getting Started](./getting-started.md)**
+👉 [Getting Started](./getting-started.md)
 
-That guide covers:
+This covers:
 - First spawn basics  
-- How to make money early  
-- How not to lose everything immediately  
+- Bank vs cash  
+- How interactions work  
+- Safe early income options  
 
 ---
 
 # 🧭 Factions Overview
 
-Each faction plays very differently. Pick the one that fits how you want to play.
+Each faction plays differently. Choose based on your preferred playstyle.
 
 ---
 
 ## 🟡 Civilian
-**Freedom, business, crime, or chaos — your call.**
+- Legal work, mining, farming
+- Drug production and robberies
+- Gangs and territory disputes
+- Kidnapping and ransom
 
-- Run legal jobs like mining and trading
-- Build wealth through factories and deliveries
-- Join gangs and fight over territory
-- Enter the drug trade for high risk, high reward
-- Deal with police and military enforcement
-
-👉 **[Civilian Guide](./factions/civilian.md)**
+👉 [Civilian Guide](./factions/civilian.md)
 
 ---
 
-## 🔵 BLUFOR (Police / North)
-**Law enforcement and republic security.**
+## 🔵 BLUFOR (Police – North)
+- Law enforcement and arrest procedures
+- Border checkpoints
+- Territory capture and defense
+- Criminal response operations
 
-- Patrol cities and highways
-- Respond to robberies and insurgent threats
-- Arrest, fine, and investigate crime
-- Maintain order in the North
-
-👉 **[BLUFOR Guide](./factions/blufor.md)**
+👉 [BLUFOR Guide](./factions/blufor.md)
 
 ---
 
-## 🔴 OPFOR (TLA / South)
-**Military control and territorial power.**
+## 🔴 OPFOR (TLA – South)
+- Southern military authority
+- Territory control and defense
+- Mining-based economy
+- War operations when declared
 
-- Control and defend the South
-- Conduct military operations
-- Enforce your authority in your territory
-- Engage insurgent threats
-
-👉 **[OPFOR Guide](./factions/opfor.md)**
+👉 [OPFOR Guide](./factions/opfor.md)
 
 ---
 
 ## 🟢 Insurgents
-**Guerrilla warfare and disruption.**
+- Guerrilla warfare
+- Drug processing from base
+- Bombing missions
+- Convoy disruption
+- Destabilisation operations
 
-- Engage BLUFOR and OPFOR forces
-- Run illegal operations
-- Ambush, sabotage, and destabilise
-- Survive in hostile territory
-
-👉 **[Insurgent Guide](./factions/insurgent.md)**
+👉 [Insurgent Guide](./factions/insurgent.md)
 
 ---
 
-## 🚑 ESU (Medics)
-**Neutral lifesavers in the middle of chaos.**
+## 🚑 ESU
+- Revival and emergency response
+- Neutral medical operations
+- Aircraft rapid response (licensed)
 
-- Revive players after combat
-- Provide emergency transport
-- Stay neutral in all conflicts
-- Keep the server flowing
-
-👉 **[ESU Guide](./factions/esu.md)**
+👉 [ESU Guide](./factions/esu.md)
 
 ---
 
 ## ⚫ PMC
-**Professional operators for hire.**
+- Contract-based operations
+- Escort and security missions
+- Independent structured deployments
 
-- Take contracts from any faction
-- Provide security, escorts, or targeted operations
-- Operate independently
-- Build a reputation for reliability
-
-👉 **[PMC Guide](./factions/pmc.md)**
+👉 [PMC Guide](./factions/pmc.md)
 
 ---
 
-## 📚 Additional Guides
+# 📚 Additional Guides
 
-**For players who want a deeper understanding of how the server systems function:**
+For deeper understanding of server systems:
 
-Economy Overview – How money flows, how territory affects income, and how risk scales.
-👉 **[Economy Overview](./economy_overview.md)**
+- 👉 [Economy Overview](./economy-overview.md)
+- 👉 [Conflict & Territory Systems](./conflict-territory-systems.md)
+- 👉 [Frequently Asked Questions](./faq.md)
+- 👉 [Rules Summary](./rules.md)
 
-Rules Summary – High-level overview of core rules before reading the full policy.
-👉 **[Rules Summary](./rules.md)**
-
+More advanced guides may be added over time.
 
 ---
 
-# 🎯 Final Note
+# 📜 Official Rules
+
+All players are responsible for knowing the official rule set.
+
+👉 https://github.com/RiseGaming/Takistan-Life-Rules
+
+The Rules Summary is a simplified overview. The official rules take priority.
+
+---
+
+# Final Note
 
 Takistan Life works best when:
 
-- People play their role
-- Fights have context
-- Risk feels meaningful
-- Everyone is trying to make the session memorable
+- Conflict has context
+- Risk is calculated
+- Factions operate with structure
+- Players understand the systems
 
-If you’re unsure about something, ask in Discord.  
-Better to clarify than accidentally start a war.
+If unsure about anything, ask in Discord before acting.
